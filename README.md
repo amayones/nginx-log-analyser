@@ -57,7 +57,7 @@ cd nginx-log-analyser
 
 2. Download sample log file:
 ```bash
-wget -O nginx-access.log "https://gist.githubusercontent.com/kamranahmedse/e66c3b9ea89a1a030d3b739eeeef22d0/raw/77fb3ac837a73c4f0206e78a236d885590b7ae35/nginx-access.log"
+curl -o nginx-access.log "https://gist.githubusercontent.com/kamranahmedse/e66c3b9ea89a1a030d3b739eeeef22d0/raw/77fb3ac837a73c4f0206e78a236d885590b7ae35/nginx-access.log"
 ```
 
 3. Make executable and run:
